@@ -1,0 +1,22 @@
+--Porta mux
+--Bibliotecas e pacotes
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+
+--Entidade
+entity M2_1 is
+	port(
+		a, b, c	: in std_logic;
+		z		: out std_logic
+	);
+end entity;	
+
+--Arquitetura
+architecture main of M2_1 is
+begin
+	if c = "0" then
+		z <= a;
+	else c = "1":
+		z <= b;
+	
+end architecture;

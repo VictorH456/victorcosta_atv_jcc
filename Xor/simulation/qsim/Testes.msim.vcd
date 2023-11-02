@@ -1,0 +1,66 @@
+$comment
+	File created using the following command:
+		vcd file Testes.msim.vcd -direction
+$end
+$date
+	Thu Nov 02 15:52:27 2023
+$end
+$version
+	ModelSim Version 10.5b
+$end
+$timescale
+	1ps
+$end
+
+$scope module xor_gate_vhd_vec_tst $end
+$var wire 1 ! a $end
+$var wire 1 " b $end
+$var wire 1 # z $end
+
+$scope module i1 $end
+$var wire 1 $ gnd $end
+$var wire 1 % vcc $end
+$var wire 1 & unknown $end
+$var wire 1 ' devoe $end
+$var wire 1 ( devclrn $end
+$var wire 1 ) devpor $end
+$var wire 1 * ww_devoe $end
+$var wire 1 + ww_devclrn $end
+$var wire 1 , ww_devpor $end
+$var wire 1 - ww_a $end
+$var wire 1 . ww_b $end
+$var wire 1 / ww_z $end
+$var wire 1 0 \~QUARTUS_CREATED_GND~I_combout\ $end
+$var wire 1 1 \b~input_o\ $end
+$var wire 1 2 \a~input_o\ $end
+$var wire 1 3 \orfinal|z~0_combout\ $end
+$var wire 1 4 \ALT_INV_b~input_o\ $end
+$var wire 1 5 \ALT_INV_a~input_o\ $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+$dumpvars
+0!
+0"
+0#
+0$
+1%
+x&
+1'
+1(
+1)
+1*
+1+
+1,
+0-
+0.
+0/
+x0
+01
+02
+03
+14
+15
+$end
+#1000000

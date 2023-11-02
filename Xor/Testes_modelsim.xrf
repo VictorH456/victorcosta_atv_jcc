@@ -1,0 +1,17 @@
+vendor_name = ModelSim
+source_file = 1, C:/Users/victo/OneDrive/Documentos/Hugo/Faculdade/3° Semestre/Aoc/Aoc Programas/Aoc/Xor/and_gate.vhd
+source_file = 1, C:/Users/victo/OneDrive/Documentos/Hugo/Faculdade/3° Semestre/Aoc/Aoc Programas/Aoc/Xor/not_gate.vhd
+source_file = 1, C:/Users/victo/OneDrive/Documentos/Hugo/Faculdade/3° Semestre/Aoc/Aoc Programas/Aoc/Xor/or_gate.vhd
+source_file = 1, C:/Users/victo/OneDrive/Documentos/Hugo/Faculdade/3° Semestre/Aoc/Aoc Programas/Aoc/Xor/xor_gate.vhd
+source_file = 1, C:/Users/victo/OneDrive/Documentos/Hugo/Faculdade/3° Semestre/Aoc/Aoc Programas/Aoc/Xor/Xor.vwf
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_b.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/prmtvs_p.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_b.vhd
+source_file = 1, c:/intelfpga_lite/19.1/quartus/libraries/vhdl/ieee/timing_p.vhd
+source_file = 1, C:/Users/victo/OneDrive/Documentos/Hugo/Faculdade/3° Semestre/Aoc/Aoc Programas/Aoc/Xor/db/Testes.cbx.xml
+design_name = xor_gate
+instance = comp, \z~output\, z~output, xor_gate, 1
+instance = comp, \b~input\, b~input, xor_gate, 1
+instance = comp, \a~input\, a~input, xor_gate, 1
+instance = comp, \orfinal|z~0\, orfinal|z~0, xor_gate, 1
+instance = comp, \~QUARTUS_CREATED_GND~I\, ~QUARTUS_CREATED_GND~I, xor_gate, 1

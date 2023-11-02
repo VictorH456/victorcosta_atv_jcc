@@ -1,0 +1,13 @@
+-- MNot -- Pacotes 
+LIBRARY IEEE;
+USE IEEE.std_logic_1164.all;
+--ENTITY 
+ENTITY MNot IS PORT( 
+	A : IN  std_logic; 
+	F : OUT std_logic 
+); END MNot;
+--ARQUITETURA 
+ARCHITECTURE logic OF MNot IS 
+BEGIN 
+	F <= not A;
+END logic;
